@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+
+    height:100vh;
+
+    background:linear-gradient(
+        to bottom,
+        #001133,
+        #00aa55
+    );
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.main{
+
+    width:350px;
+
+}
+
+.logo{
+
+    text-align:center;
+
+    color:white;
+
+    font-size:45px;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+}
+
+.login-box,
+.admin-box{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+
+}
+
+h1,
+h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+input{
+
+    width:100%;
+
+    padding:14px;
+
+    margin-bottom:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    background:#001133;
+
+    color:white;
+
+    font-size:16px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+    margin-bottom:10px;
+
+    transition:0.3s;
+
+}
+
+button:hover{
+
+    opacity:0.9;
+
+}
+
+.demo-btn{
+
+    background:black;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+th{
+
+    background:#001133;
+
+    color:white;
+
+    padding:12px;
+
+}
+
+td{
+
+    border:1px solid #ccc;
+
+    padding:10px;
+
+    text-align:center;
+
+}
